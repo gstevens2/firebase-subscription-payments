@@ -1,20 +1,20 @@
 // Replace with your publishable key
 // https://dashboard.stripe.com/apikeys
-const STRIPE_PUBLISHABLE_KEY = 'pk_test_NzVWw6MB7fN3HSeAvVnyf5tx00hTu3Ukrk';
+const STRIPE_PUBLISHABLE_KEY = 'pk_live_51HcieXAkTt6x1Iy1J2L5ajYZxrHf1Hv8lmR5x902M2WL8rfTqfZe2xOWTOYuwKb6tdfSApWlKt88XjfVmT8x545U00yPPnciow';
 
 // Replace with your tax ids
 // https://dashboard.stripe.com/tax-rates
-const taxRates = ['txr_1HCshzHYgolSBA35WkPjzOOi'];
+const taxRates = ['txr_1IJA8YAkTt6x1Iy1Cy9gmvcI'];
 
 // Replace with your Firebase project config.
 const firebaseConfig = {
-  apiKey: 'AIzaSyAEGmffBNUsVrdVS_iyiI4eUMOWWp4Q5dI',
-  authDomain: 'stripe-subs-ext.firebaseapp.com',
-  databaseURL: 'https://stripe-subs-ext.firebaseio.com',
-  projectId: 'stripe-subs-ext',
-  storageBucket: 'stripe-subs-ext.appspot.com',
-  messagingSenderId: '955066520266',
-  appId: '1:955066520266:web:ec7135a76fea7a1bce9a33',
+  apiKey: "AIzaSyAWixVFJKixnBPjaznOyH55MUjC8OvfO9M",
+  authDomain: "greetme-billing.firebaseapp.com",
+  projectId: "greetme-billing",
+  storageBucket: "greetme-billing.appspot.com",
+  messagingSenderId: "259513782627",
+  appId: "1:259513782627:web:31a9ed5bcb590b47aec356",
+  measurementId: "G-7F2RLXYB0H"
 };
 
 // Replace with your cloud functions location
